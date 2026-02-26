@@ -1,0 +1,37 @@
+BasedOnStyle: LLVM
+
+# Indentation
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+# Allman braces style
+BreakBeforeBraces: Allman
+
+# Do NOT reorder includes
+SortIncludes: false
+
+# Keep things readable and predictable
+ColumnLimit: 120
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+
+# Pointer & reference style (common in C/C++)
+PointerAlignment: Left
+ReferenceAlignment: Left
+
+# Function formatting
+AlwaysBreakAfterReturnType: None
+BinPackArguments: false
+BinPackParameters: false
+
+# Structs / enums
+BraceWrapping:
+  AfterStruct: true
+  AfterEnum: true
+  AfterUnion: true
+  AfterFunction: true
+  AfterControlStatement: true
+  BeforeElse: true
+  BeforeCatch: true
